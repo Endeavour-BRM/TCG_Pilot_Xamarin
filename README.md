@@ -1,20 +1,14 @@
-Tasky Pro
-=========
+Tasky Portable
+==============
 
-TaskyPro is a simple cross-platform todo/task application sample that allows
-you to track todo tasks. It illustrates proper application architecture
-layering and uses a common code base for the Business Layer, Data Access
-Layer, and Data Layer layers. It then separates out the User
-Interface and Application Layer into the appropriate device-applications.
+Tasky is a simple cross-platform todo/task application sample that allows
+you to track todo items (tasks).
 
-The application runs on iOS, Android, Windows Phone 8, and Windows 8.1 with a set of 
-common classes shared across all three platforms. It uses Shared Asset
-Projects for the common code that is referenced from all platform-specific
-projects.
+This version uses a [Portable Class Library](http://developer.xamarin.com/guides/cross-platform/application_fundamentals/pcl/introduction_to_portable_class_libraries/) to encapsulate and share code across iOS, Android and Windows Phone platforms. For comparison, the [Tasky](https://github.com/xamarin/mobile-samples/tree/master/Tasky) sample uses a [Shared Project](http://developer.xamarin.com/guides/cross-platform/application_fundamentals/shared_projects/).
 
-![screenshot](https://github.com/xamarin/mobile-samples/raw/master/TaskyPro/Screenshots/all-small.png "iOS, Android and Windows Phone")
+![screenshot](https://raw.github.com/xamarin/mobile-samples/master/TaskyPortable/Screenshots/devices.png) 
 
-NOTE: it also supports some basic iOS localization to [Spanish](Screenshots/iOS/03-detail_spanish.png) and [Japanese](Screenshots/iOS/04-detail_japanese.png).
+**Be warned that if you open the solution in Xamarin Studio it will not be able to load the Windows Phone project.**
 
 Xamarin.Forms Version
 ---------------------
